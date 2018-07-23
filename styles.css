@@ -26,6 +26,7 @@ body {
 #header-title {
   display: block;
   float: left;
+  padding-left: 20px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -38,7 +39,7 @@ body {
 
 #header-nav li {
   display: inline;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container {
@@ -48,7 +49,7 @@ body {
 
 #footer {
   background-color: #2f2f2f;
-  padding: 50px 0;
+  padding: 50px 0 0 20px;
 }
 
 .column {
