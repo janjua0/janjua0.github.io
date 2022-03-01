@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NaveedJanjua</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Naveed Ahmed Janjua</h1>
+        <h2>13+ years experienced professional in Oil & Gas industry</h2>
+	<div><a href="https://cv.naveedjanjua.com" target="_blank"><button class="btn_one">Resume</button></a></div>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.linkedin.com/in/naveed330/" target="_blank"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://www.facebook.com/janjua330" target="_blank"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://github.com/janjua0" target="_blank"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://twitter.com/janjua330" target="_blank"><i class="fab fa-twitter"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+		<p>Throughout my professional career, I've received numerous promotions and honors. As a committed, hard working professional I've learned a lot over the last few years. Despite all of my achievements, I am a learner at heart and still have a long way to go. I like being challenged but more importantly I love overcoming challenges and hurdles.</p>
+	</section>
+	<section>
+        	<h2>Finance Executive</h2>
+		<p>Burshane LPG (Pakistan) Limited</br>Nov 2021 - Present</p>
+		<h2>Oil Accountant</h2>
+            	<p>Burshane Petroleum (Pvt) Ltd<br>Dec 2018 - Sep 2021 (3 years approx)</p>
+	    	<h2>Assistant Terminal Manager</h2>
+            	<p>Al Rahim Trading Company (Pvt) Ltd<br>June 2009 - May 2017 (8 years)</p>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <p>I am still defining myself. For now, I am just me ;-)</p>
+            </section>
+            <section>
+                <h2>skills</h2>
+		<ul>
+                	<li>Experienced with Microsoft Excel and SAP SD Module.</li>
+			<li>Proficient with Customized ERP and ERP Implementation</li>
+			<li>Knowledgeable about Web Technologies, CMS i.e. Wordpress, HTML, CSS & Javascript, Responsive Web Development and Artificial Intelligence</li>
+		</ul>
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form method="POST" name="contactform">
+                        <input type="text" placeholder="name" name="name" required>
+                        <input type="email" placeholder="email" name="email" required><br>
+                        <textarea placeholder="your message" name="message" required rows="5"></textarea><br>
+                        <button class="btn_one" type="submit">Send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+	  <a href="https://naveedjanjua.com">naveedjanjua.com</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
