@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 twitter_username: facespics
-github_username:  sproogen
+github_username:  janjua0
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -58,7 +58,7 @@ content:
     content:
       - layout: top-middle
         title: Super awesome project
-        link: github.com/sproogen
+        link: github.com/janjua0
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
