@@ -1,45 +1,44 @@
 # Site
-repository: sproogen/jameswgrant
+repository: janjua0/janjua0.github.io
 favicon: images/favicon.ico
 
 version: 2
 
 # Personal info
-name: James Grant
-title: Full Stack Web Developer
-email: james@jameswgrant.co.uk
+name: Naveed Ahmed Janjua
+title: Assistant Financial Controller
+email: naveedahmed330@gmail.com
 
 # Social links
-twitter_username: sproogen
-github_username:  sproogen
+twitter_username: janjua330
+github_username:  janjua0
 # dribbble_username:
-# facebook_username:
+facebook_username:  janjua330
 # flickr_username:
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: 
+linkedin_username: naveed330
 # pinterest_username:
 # youtube_username:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/jg2.jpg
+about_profile_image: images/profile.jpg
 about_content: |
-  Hi, my name is James Grant, I'm a full stack web developer with over 9 years experience currently specialising in React development.
-  I am currently working for NatWest as a Lead Frontend Software Engineer on their comercial banking platform, Bankline.
-
+  Hi, my name is Naveed Ahmed, a dedicated professional with a history of career growth and recognition, including multiple promotions and honors. 
+  While proud of my achievements, I remain a learner at heart, always seeking to expand my knowledge and skill set. I am drawn to new challenges 
+  and have a proven ability to turn complex situations into opportunities for improvement. Interested in connecting with innovators and leaders 
+  who share a passion for continuous growth.
   I enjoy making clean and interactive UI that is quick and easy to use whilst also giving users an enjoyable experience.
   I like working creating clean and efficient developer experiences to allow developers to focus on code quality and the end user experience.
   I have worked with a range of different languages and frameworks and I am always looking for opportunities to work
   with something new. The things that I currently have the most experience working with are:
-  <mark>ES6 Javascript</mark>,
-  <mark>React &amp; Redux</mark>,
-  <mark>Node.js</mark>,
-  <mark>Java</mark>,
-  <mark>MySQL</mark>,
-  <mark>SASS</mark>,
-  <mark>git</mark> and
-  <mark>AWS</mark>.
-
+  <mark>Advanced Microsoft Excel &amp; Data Analytics</mark>,
+  <mark>Accounts Payable &amp; Receivable Management</mark>,
+  <mark>ERP Implementation &amp; Optimization (SAP SD, Sidat Hyder ERP &amp; Customized ERP)</mark>,
+  <mark>Audit Coordination &amp; Compliance</mark>,
+  <mark>Stock Reconciliation &amp; Variance Analysis</mark> and
+  <mark>Stakeholder &amp; Vendor Relationship Management</mark>.
+  
 content:
   - title: Projects # Title for the section
     layout: list
