@@ -1,15 +1,15 @@
 # Site
-repository: sproogen/resume-theme
+repository: janjua0/janjua0.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Naveed Ahmed Janjua
+title: Assistant Financial Controller
+email: naveedahmed330@gmail.com
+website: www.naveedjanjua.com
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -117,7 +117,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: janjua0/janjua0.github.io
 
 sass:
   sass_dir: _sass
